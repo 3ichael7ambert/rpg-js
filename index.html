@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text-based RPG Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="start-form">
+    <h2>Welcome to the Text-based RPG Game!</h2>
+    <form id="game-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="class">Class:</label>
+      <select id="class" required>
+        <option value="">Select a class</option>
+        <option value="warrior">Warrior</option>
+        <option value="wizard">Wizard</option>
+      </select>
+      <button type="submit">Start Game</button>
+    </form>
+  </div>
+
+  <div id="game" class="hidden">
+    <div id="status"></div>
+    <div id="actions">
+      <form id="action-form">
+        <input type="button" id="explore" value="Explore">
+        <input type="button" id="check" value="Check Status">
+        <input type="button" id="quit" value="Quit">
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

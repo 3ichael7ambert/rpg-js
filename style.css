@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   /* left:50%; */
+   /* /// */
+   display: block;
+   align-items: center;
+   background-color: palevioletred;
+   transition:all 1000ms;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition:all 1000ms;
+  }
+  
+  .hidden {
+    display: none;
+    transition:all 1000ms;
+  }
+  
+  #game {
+    margin-top: 30px;
+
+    background-color: #E8A;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    transition:all 1000ms;
+  }
+  
+  #status {
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition:all 1000ms;
+  }
+  
+  form {
+    margin-bottom: 10px;
+    transition:all 1000ms;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form select {
+    margin-top: 5px;
+  }
+  
+  form input[type="submit"] {
+    margin-top: 10px;
+  }
+  
+  #output {
+    margin-top: 20px;
+    transition:all 1000ms;
+  }
+  
+
+  #start-form {
+    background-color: #E8A;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    transition:all 1000ms;
+  }
+
+
+  input, option, select, button{
+    background-color: #E8A;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin: 0 auto;
+    transition:all 1000ms;
+    border:0;
+  }
+
+  input:hover,option:hover,button:hover {
+    background-color: pink;
+  }
